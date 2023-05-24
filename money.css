@@ -1,0 +1,61 @@
+.money .screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 30px auto 20px auto;
+    height: 30%;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: black;
+    color: green;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.money .screen div {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.money .pay {
+    height: auto;
+    width: 80%;
+    margin: 10px auto 40px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.money .pay button {
+    font-size: 1.5em;
+    background-color: #7b2cbf;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 20px;
+    width: 200px;
+}
+
+.money .methods {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.money .methods div {
+    background-color: #7b2cbf;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2em;
+    padding: 20px 50px;
+}
+
+.money .methods div:hover,
+.money .pay button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #7b2cbf;
+}
